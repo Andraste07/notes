@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal Theme Catppuccin Mocha.md",
+                "file": "test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Terminal Theme Catppuccin Mocha"
-            }
-          },
-          {
-            "id": "990bf07e944894bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homelab.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Homelab"
+              "title": "test"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,7 +174,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -199,8 +183,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "e69a1cced35bbea3",
+  "active": "c1a711e10f26f22c",
   "lastOpenFiles": [
+    "test.md",
     "notes for homelab.md",
     "Homelab.md",
     "Terminal Theme Catppuccin Mocha.md",
