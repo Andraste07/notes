@@ -25,6 +25,9 @@ git add terraform.tfvars
 git commit -m "x"
 git pull --rebase
 git push
+
+git add . && git commit -m "recover old files" && git push
+
 ```
 
 ## Pull request workflow
