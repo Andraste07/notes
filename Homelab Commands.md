@@ -85,6 +85,7 @@ rm -rf .terraform/
 ```
 pct shutdown 100
 pct shutdown 102
+pct shu
 qm shutdown 101
 pct list
 qm list
