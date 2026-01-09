@@ -1,7 +1,37 @@
 ```table-of-contents
 ```
 
-## Terraform repository setup (first time)
+## search host 
+```
+grep -RIn --exclude-dir=.git baal .
+```
+
+## Proxmox host reset + shutdown
+
+```
+pct shutdown 100
+pct shutdown 102
+
+qm shutdown 101
+
+pct list
+qm list
+
+shutdown -h now
+```
+
+
+## Proxmox cleanup
+
+```
+pct stop 777
+pct destroy 777
+
+qm stop 788
+qm destroy 788
+```
+
+## forgejo repository setup (first time)
 
 ```
 git init
@@ -67,32 +97,6 @@ git push -u origin feature/ipam-host-resolution
 
 ```
 
-## Proxmox cleanup & Terraform state reset
-
-```
-pct stop 777
-pct destroy 777
-
-qm stop 788
-qm destroy 788
-
-rm -f terraform.tfstate terraform.tfstate.backup
-rm -rf .terraform/
-```
-
-## Proxmox host reset + shutdown
-
-```
-pct shutdown 100
-pct shutdown 102
-
-qm shutdown 101
-
-pct list
-qm list
-
-shutdown -h now
-```
 
 ## Commit Msg
 
