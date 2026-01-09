@@ -3,7 +3,7 @@
 
 ## search host 
 ```
-grep -RIn --exclude-dir=.git baal .
+grep -RIn --exclude-dir=.git alva .
 ```
 
 ## Proxmox host reset + shutdown
